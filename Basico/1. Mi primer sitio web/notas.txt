@@ -1,0 +1,19 @@
+Etiqueta: fragmento de codigo que representa algo en un sitio web (boton, campo de texto , texto etc)    <etiqueta></etiqueta>
+
+-cada etiqueta tiene un contenido <etiqueta>contenido (elementos afectados por la etiqueta)</etiqueta>
+
+Atributo: Es una variacion o modificacion a la pagina
+
+<etiqueta atributo = 'valor'></etiqueta>
+
+-Un atributo tiene un  valor
+
+
+
+ejemplo:
+
+
+<etiqueta  color='azul'>texto</etiqueta>
+
+
+html:  HyperText Markup Language («lenguaje de marcas de hipertexto»)

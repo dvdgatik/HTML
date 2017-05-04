@@ -1,0 +1,132 @@
+<html>
+<head>
+	<!--Formulario:Parte del sitio web en la cual el usuario puede interactuar capturando informacion y en base ha eso darle una respuesta -->
+	<title>Formulario</title>
+</head>
+<body>
+
+
+<a name="arriba">arriba</a>
+	<form action="pagina2.html" method="POST"> <!--Etiqueta formulario-->
+
+	<!--Entrada tipo caja de texto-->
+	Cajas de texto <br>
+    <input type="text"  value="Escribe tu nombre"> <br>
+    <input type="text"  placeholder="Escribe tu nombre" ><br>
+    <input type="text"  value="Escribe tu nombre"  size="10"><br> <!--se recomienda modificar en CSS-->
+    <input type="text"  maxlength="2"><br>
+    <label for="nombre">Ingrese su nombre:</label>
+    <input id="nombre"><br><br>
+
+     
+    <!--Entrada de tipo caja de texto contraseña-->
+    Caja de texto Contrase&ntilde;a <br>
+    <input type="password"><br>
+    Caja de texto email<br>  
+    <input type="email"><br> <!-- No funciona en todos los navegadores-->
+
+
+     Casilla de verificaci&ntilde;n<br>
+    <input type="checkbox">Hot dog <!--Seleccionar multiples opciones-->
+    <input type="checkbox">Pizza
+    <input type="checkbox">Tacos
+    <input type="checkbox">Burritos
+    <input type="checkbox"> Quesadillas<br>
+
+    Boton de radio o Boton de opcion  <br>
+    <input type="radio"  name="sexo">Hombre  <!-- Selecciona solo una opcion-->
+    <input type="radio"  name="sexo">Mujer<br>
+
+    Boton de accion<br>
+    <input type="button" value="Mostrar Mensaje" onclick="alert('Hola Mundo')"> <!--Se utiliza mucho en javascript-->
+    <br>
+
+
+    Boton de envio de datos (submit)<br>
+    <input type="submit"><br>
+
+
+
+    Lista Despegable<br>
+    <select>
+    	<option value="Mexico">Mexico</option>
+    	<option value="Argentina">Argentina</option>
+    	<option value="Brazil">Brazil</option>
+    	<option value="Chile">Chile</option>
+    </select>
+
+    <br>
+
+    Color<br>
+    <input type="color"><br> <!--No funcionan en todos los navegadores-->
+
+    Rango<br>
+    <input type="range"><br>
+  
+
+    Entrada tipo numerica <br>
+     <input type="number" min="1" max="5"> <br>
+
+     Entradas tipo fecha y tiempo <br>
+
+     <input type="date"> <br>
+     Mes<input type="month"> <br>
+     <input type="week"> <br>
+     Tiempo<input type="time"> <br>
+
+
+
+
+
+
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+
+    Enlace que manda a una parte del documento <br>
+    <a href="#arriba">Hacia arriba</a>
+
+
+
+
+
+
+<br>
+
+   
+
+	</form>
+
+	<!--
+action: recibe una url que se encarga de procesar los dato del formulario.
+ejemplo: datos.php
+
+
+atributo method:
+POST: envia los datos por identificadores de nombre
+GET:  envia los datos por url
+Input:  Entrada
+
+
+atributos
+
+type: tipo de entrada
+value: definir valor que contiene la entrada
+placeholder: marcador de posicion : coloca texto dentro de la entrada y al poner el foco del puntero y escribir algo desaparece
+size:tamaño de la entrada
+maxlength: maximo de caracteres permitidos
+name: nombre del elemento,  el servidor lo identifica, se usa en metodo POST
+id: otro elemento lo identifica al elemento que lo posee, se usa tambien en CSS con #
+class: se usa principalmente en CSS lo identifica la hoja de estilo con un punto .
+
+-->
+</body>
+</html>
